@@ -18,7 +18,9 @@ body {
   font-family: "Roboto Slab", serif;
   background: var(--light-color);
 }
-
+.m-1 {
+  margin: 1rem;
+}
 a {
   color: var(--primary-color);
   text-decoration: none;
