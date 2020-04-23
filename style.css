@@ -421,8 +421,8 @@ button {
 
 .card {
   border-radius: 25px;
-  background: #dbddffb2;
-  /* background: #fff; */
+  /* background: #dbddffb2; */
+  background: rgb(248, 251, 255);
   padding: 1rem;
 }
 
