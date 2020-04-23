@@ -218,6 +218,9 @@ header {
 #page-14 {
   background: #8db6d9;
 }
+.page a {
+  color: #fff;
+}
 
 .page {
   color: #fff;
@@ -419,6 +422,7 @@ button {
 .card {
   border-radius: 25px;
   background: #dbddffb2;
+  /* background: #fff; */
   padding: 1rem;
 }
 
