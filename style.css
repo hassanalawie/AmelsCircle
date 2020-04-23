@@ -386,6 +386,10 @@ button {
 }
 /* Library Page */
 
+.libback {
+  background: #4db1e03d;
+}
+
 .category {
   --sport-color: #7195b4;
   --ent-color: #a0d2fd;
@@ -413,7 +417,8 @@ button {
 }
 
 .card {
-  background: #fff;
+  border-radius: 25px;
+  background: #dbddffb2;
   padding: 1rem;
 }
 
