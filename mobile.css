@@ -1,0 +1,259 @@
+/* Navigation */
+nav .container {
+  grid-template-columns: 1fr;
+  grid-gap: 1.2rem;
+}
+
+#main-nav ul {
+  justify-items: center;
+  justify-content: center;
+  justify-self: center;
+}
+
+#main-nav ul li a {
+  margin: 0;
+  padding: 0.5rem;
+}
+#main-nav ul li {
+  font-size: 0.7rem;
+}
+#main-nav {
+  height: 4vh;
+}
+#home-articles .articles-container {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+#home-articles .articles-container > *:first-child,
+#home-articles .articles-container > *:last-child {
+  grid-template-columns: 1fr;
+  grid-column: 1;
+}
+
+.container {
+  margin: auto;
+  padding: 0 2rem;
+  overflow: hidden;
+}
+
+@media (max-width: 600px) {
+  /* Stack Grid Items */
+  #showcase .showcase-container,
+  #home-articles .articles-container,
+  #main-footer .footer-container {
+    grid-template-columns: 1fr;
+  }
+
+  #main-footer .footer-container > *:last-child {
+    grid-column: 1;
+  }
+
+  #main-footer .footer-container > *:first-child,
+  #main-footer .footer-container > *:nth-child(2) {
+    border-bottom: #444 dotted 1px;
+    padding-bottom: 1rem;
+  }
+
+  .page-container {
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+
+  .page-container > *:first-child {
+    grid-row: 1;
+  }
+
+  .l-heading {
+    font-size: 2rem;
+  }
+}
+
+/* CONTACT */
+#contactabout {
+  background: #8f8fa1;
+}
+#contact-form {
+  background: #9cd1ff;
+}
+
+input {
+  margin: 0.6rem;
+  padding: 1.5rem 1.5rem;
+}
+#contact-form input,
+#contact-form textarea {
+  font-size: 1rem;
+  width: 100%;
+  padding: 20px;
+  border-radius: 45px;
+  border: 1px #ddd solid;
+}
+
+#contact-form textarea {
+  height: 300px;
+  margin: 1rem;
+  padding: 1.5rem 2rem;
+}
+
+#contact-form input:focus,
+#contact-form textarea:focus {
+  outline: none;
+  border-color: #bbe6ff;
+}
+
+#contact-form .form-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+#contact-form .form-group-2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#contact-form p {
+  margin: 0;
+  color: #fff;
+  text-align: center;
+}
+#contact-form .btn-sub {
+  background: #6bb6f7;
+  padding: 1rem;
+  margin: 1rem;
+  border-radius: 45px;
+  padding: 1.5rem 3rem;
+}
+button {
+  font-size: 1rem;
+  color: var(--light-color);
+}
+#contact-form .btn-sub:hover {
+  background: #55a9f7;
+  cursor: pointer;
+}
+.text-secondary {
+  color: #fff;
+}
+.heading {
+  margin-top: 8rem;
+  margin-bottom: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.heading-2 {
+  color: #fff;
+  margin-top: 1rem;
+  font-size: 1.5rem;
+  display: flex;
+}
+
+/* TIPS */
+.tipsbody {
+  overflow: hidden;
+}
+.page {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.pagen {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.pagen p {
+  font-size: 1.3rem;
+}
+
+.pagen h1 {
+  font-size: 2.5rem;
+  font-weight: lighter;
+  padding: 0rem 4rem;
+}
+.pagen .btn {
+  display: inline-block;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  font-size: 1.1rem;
+  transition: all 0.3s ease-in;
+}
+.pagen a {
+  color: #fff;
+}
+.tit {
+  max-width: (var(--max-width));
+}
+.page h1 {
+  font-size: 2.5rem;
+  font-weight: lighter;
+  padding: 0rem 4rem;
+}
+.page h2 {
+  font-size: 7rem;
+  font-weight: lighter;
+  line-height: 1.2;
+  margin: 1rem;
+}
+
+.page p {
+  font-size: 1.3rem;
+}
+.btn-light {
+  background: #bcd9ec;
+}
+
+.btn-dark {
+  background: #a4c4e3;
+}
+.page .btn {
+  display: block;
+  padding: 1rem;
+  color: #fff;
+  text-decoration: none;
+  border: none;
+  font-size: 1.1rem;
+  transition: all 0.3s ease-in;
+}
+
+.page .btn:hover {
+  background: #fff;
+  color: #333;
+}
+
+.page .btn-dark:hover {
+  background: #f4f4f4;
+  color: #333;
+}
+/* Philosophy */
+.l-heading {
+  font-size: 4rem;
+}
+
+.heading {
+  margin: 3rem 0rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+#about {
+  background: #577bb3;
+  padding-bottom: 4rem;
+}
+#contact-form {
+  padding-bottom: 4rem;
+}
