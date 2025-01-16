@@ -41,6 +41,7 @@
           method="POST"
           data-netlify="true"
           data-netlify-recaptcha="true"
+          netlify
         >
           <div class="form-group">
             <input
@@ -66,15 +67,34 @@
               placeholder="Message"
             ></textarea>
           </div>
-          <div class="form-group-2">
-            <input type="checkbox" name="checkbox" required />
+          <div style="display: flex; align-items: center; margin-top: 10px">
+            <input
+              type="checkbox"
+              name="checkbox"
+              required
+              style="
+                appearance: none;
+                width: 20px;
+                height: 20px;
+                border: 2px solid #333;
+                border-radius: 5px;
+                outline: none;
+                cursor: pointer;
+                display: inline-block;
+                position: relative;
+                background-color: white;
+              "
+              onfocus="this.style.boxShadow='0 0 5px rgba(0, 0, 0, 0.5)'"
+              onblur="this.style.boxShadow='none'"
+              onchange="this.style.backgroundColor = this.checked ? '#4CAF50' : 'white';"
+            />
+            <p style="margin: 0; margin-left: 10px">
+              I am aware that I am not speaking with a registered counsellor or
+              psychologist. Amel’s Circle is not able to prescribe psychotherapy
+              or medication. If needed, Amel’s Circle can assist you in finding
+              a counsellor or psychiatrist in your area.
+            </p>
           </div>
-          <p>
-            I am aware that I am not speaking with a registered counsellor or
-            psychologist. Amel’s Circle is not able to prescribe psychotherapy
-            or medication. If needed Amel’s Circle can assist you in finding a
-            counsellor or psychiatrist in your area.
-          </p>
           <div class="m-1" data-netlify-recaptcha="true"></div>
           <div class="form-group">
             <button type="submit" class="btn-sub">
